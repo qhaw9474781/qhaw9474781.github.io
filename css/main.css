@@ -1,35 +1,62 @@
 
+body {
+    background-color: #5d6577;
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/file_6fa4374d.jpeg?width=1200&region=0%2C0%2C2000%2C2000&quality=8");
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 18px;
+    color: #00cc00;
+}
 
-        <html>
-  <head>
-    <title>quinn hawker</title>
-    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Pict
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">ure" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="icon" type="image
-  <body>
-    <div class="body">
-            <div class="header">
-        <h1>2018 Coding Camp</h1>
-        <div class="images">
-          <img src=https://07d795c296a8d922d0e9-5edb1f9e933dba0cc463a74661553d85.ssl.cf2.rackcdn.com/images/stories/hotrod.jpg
-      </div>
-      <div class="container">
-        <h1>Hi there, I'm Captain America!</h1>
-        <img src="http://digitalspyuk.cdnds.net/18/47/980x490/landscape-1542988952-captain-america-civil-war-128.png">
-        <p>
-          I like to have fun
-        </p>
-        <h2>Superpowers:</h2>
-        <ul>
-          <li>I can code HTML</li>
-          <li>I can code CSS</li>
-          <li>I can code Javascript</li>
-          <li>I can pick up a car! (Totally useless....)</li>
-        </ul>
-        <img src=https://www.google.com/search?q=hot+rod+movie&rlz=1CAHPZV_enUS826&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi2zr-__IvfAhUFPq0KHQopDlcQ_AUIDigB&biw=1318&bih=666&safe=active&ssui=on#imgrc=3pNeZOba3HK7XM:
-        </div>
-    </div>
-  </body>
-</html>
+.body {
+    width: 1000px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
 
+.header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #99ffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header h1 {
+    font-size: 80px;
+    line-height: 10px;
+    color:#ff0066;
+}
+
+.container {
+    padding: 15px;
+}
+
+.container img {
+    max-width: 100%;
+    width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .body {
+        width: 100%;
+    }
+}
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
